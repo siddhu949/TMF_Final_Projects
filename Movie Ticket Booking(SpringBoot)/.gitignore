@@ -1,0 +1,106 @@
+##############################
+#   JAVA + SPRING BOOT
+##############################
+
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Ignore all /target/ folders except inside src
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+##############################
+#   STS (Spring Tool Suite)
+##############################
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+##############################
+#   IntelliJ IDEA
+##############################
+.idea/
+*.iws
+*.iml
+*.ipr
+
+##############################
+#   NetBeans
+##############################
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+/nb-actions-private.xml
+nb-configuration.xml
+
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+##############################
+#   VS CODE
+##############################
+.vscode/
+
+##############################
+#   REACT FRONTEND (GENERAL)
+##############################
+
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+##############################
+#   REACT (CREATE REACT APP)
+##############################
+build/
+cache/
+.expo/
+web-build/
+
+##############################
+#   VITE
+##############################
+dist/
+.vite/
+
+##############################
+#   PARCEL BUNDLER
+##############################
+.parcel-cache/
+.cache/
+dist/
+
+##############################
+#   GENERAL JS/TS
+##############################
+*.log
+*.tsbuildinfo
+
+##############################
+#   OPTIONAL: editor backups
+##############################
+*.swp
+*.swo
+*~
