@@ -1,0 +1,48 @@
+{
+  "name": "reactbasic",
+  "version": "1.0.0",
+  "description": "this is react practice",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddhu949/FrontEnd.git#main"
+  },
+  "keywords": [
+    "react",
+    "react-dom"
+  ],
+  "author": "aditya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddhu949/FrontEnd/issues"
+  },
+  "homepage": "https://github.com/siddhu949/FrontEnd/tree/main#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.22",
+    "parcel": "^2.16.0",
+    "postcss": "^8.5.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^6.30.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "process": "^0.11.10"
+  }
+}

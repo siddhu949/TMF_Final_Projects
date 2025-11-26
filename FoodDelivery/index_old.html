@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React app</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script type ="module" src="app.js"></script>
+</head>
+<body>
+  <div id="mainRoot">
+
+  </div>
+    
+    <div id ="root">
+        <h1>this is a html heading!</h1>
+    </div>
+    <script>
+        var heading1 =document.createElement("h1");
+        // heading1.setAttribute("id","main");
+        heading1.innerHTML="this is a js heading";
+        var root =document.getElementById("root");
+        root.appendChild(heading1);
+
+        var htmlRoot=document.getElementById("mainRoot");
+        var rootReact=ReactDOM.createRoot(htmlRoot);
+        var honeelement =React.createElement("h1",{/*key,value pair*/ },"heading1 created using react");
+        var reactContainer=React.createElement("div",{"id":"reactRoot"},[honeelement]);
+        rootReact.render(reactContainer);
+
+        
+    </script>
+    
+</body>
+</html>
