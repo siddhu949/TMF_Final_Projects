@@ -381,7 +381,7 @@ seats (1) ─── (N) show_seat_status
 ## 🚀 Next Steps / Enhancements
 
 1. **Add User Registration Page**
-2. **Implement Password Encryption (BCrypt)**
+2. **Implement Password Encryption (BCrypt) Finished**
 3. **Add Payment Gateway Integration**
 4. **Email Ticket Confirmation**
 5. **Admin Panel for Managing Movies/Theatres**
